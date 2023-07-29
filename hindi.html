@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Vegetarian Meal Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img class="Logo" src="Logo.png" href="index.html" alt="">  
+    <h1>भारतीय शाकाहारी भोजन जेनरेटर</h1>
+    <div class="language-dropdown">
+      <label for="languageSelect">भाषा चुने:</label>
+      <select id="languageSelect" name="language" onchange="handleLanguageChange()>
+            <option value="hi">हिंदी</option>
+      <option value="hi">हिंदी</option>
+      <option value="en">English</option>
+      </select>
+  </header>
+  <main>
+    <div class="container">
+      <div class="meal-display" id="mealDisplay">
+        <div id="mealType">भोजन का प्रकार</div>
+        <div id="meal">खाना</div>
+        <div class="recipe">
+          <img id="mealImage" src="" alt="Meal Image">
+          <a id="recipeLink" href="#" target="_blank">व्यंजन विधि</a>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="breakfastBtn">नाश्ता</button>
+        <button id="lunchBtn">दिन का खाना</button>
+        <button id="dinnerBtn">रात का खाना</button>
+      </div>
+    </div>
+
+  </main>
+  <script src="hindi.js"></script>
+</body>
+</html>
