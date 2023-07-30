@@ -1,12 +1,24 @@
 // Indian Vegetarian Meals (Define the meal options directly in JavaScript)
 const meals = {
   breakfast: [
-    { name: 'Poha', image: 'https://pipingpotcurry.com/wp-content/uploads/2020/12/Poha-Recipe-indori-Piping-Pot-Curry.jpg', recipeLink: 'https://konkanikhanna.com/kanda-batata-poha-kande-phanna-poha/#recipe-video:~:text=tea%20or%20coffee%20%E2%98%95%EF%B8%8F-,Video,-TAGS' },
+    { name: 'Poha', image: 'https://pipingpotcurry.com/wp-content/uploads/2020/12/Poha-Recipe-indori-Piping-Pot-Curry.jpg', recipeLink: 'https://www.youtube.com/watch?v=ttBtrOIYTDQ' },
     { name: 'Aloo Paratha', image: 'https://pipingpotcurry.com/wp-content/uploads/2022/11/Aloo-Paratha-Piping-Pot-Curry.jpg', recipeLink: 'https://www.youtube.com/watch?v=jLmYDZ2zjSg' },
-    { name: 'Dosa', image: 'dosa.jpg', recipeLink: 'https://www.example.com/dosa-recipe' },
-    { name: 'Chole Bhature', image: 'https://www.cookwithmanali.com/wp-content/uploads/2020/04/Chole-Bhature.jpg', recipeLink: 'https://www.cookwithmanali.com/chole-bhature/' },
-    { name: 'Methi Thepla', image: 'https://www.cookwithmanali.com/wp-content/uploads/2014/08/Methi-Thepla-1.jpg', recipeLink: 'https://www.cookwithmanali.com/methi-thepla/' },
-    // Add more breakfast options
+    { name: 'Dosa', image: 'https://www.daringgourmet.com/wp-content/uploads/2023/06/Dosa-Recipe-3.jpg', recipeLink: 'https://www.youtube.com/watch?v=J75VQSxOtdo' },
+    { name: 'Methi Thepla', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzxpk2_ZbzlrS-bQqXlf75NigbIyynK28vMw&usqp=CAU', recipeLink: 'https://www.youtube.com/watch?v=P9Mk-fafWm4' },
+    { name: 'Pancakes', image: 'https://www.marthastewart.com/thmb/9SwNGFbxZv2ttLQ3uvZe_McJChk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-basic-pancakes-horiz-1022_0-f13ba897aba6423db7901ca826595244.jpgitokXQMZkp_j', recipeLink: 'https://hebbarskitchen.com/eggless-pancake-recipe-pancakes-recipes/#:~:text=eggless%20pancake%20video%20recipe%3A' },
+    { name: 'Medu Vada', image: 'https://foodiewish.com/wp-content/uploads/2020/05/Medu-Vada-Recipe-1.jpg', recipeLink: 'https://www.example.com/medu-vada-recipe' },
+    { name: 'Vegetable Uttapam', image: 'https://www.example.com/vegetable-uttapam.jpg', recipeLink: 'https://www.example.com/vegetable-uttapam-recipe' },
+    { name: 'Puri Bhaji', image: 'https://www.example.com/puri-bhaji.jpg', recipeLink: 'https://www.example.com/puri-bhaji-recipe' },
+    { name: 'Vegetable Poha', image: 'https://www.example.com/vegetable-poha.jpg', recipeLink: 'https://www.example.com/vegetable-poha-recipe' },
+    { name: 'Paneer Paratha', image: 'https://www.example.com/paneer-paratha.jpg', recipeLink: 'https://www.example.com/paneer-paratha-recipe' },
+    { name: 'Mysore Masala Dosa', image: 'https://www.example.com/mysore-masala-dosa.jpg', recipeLink: 'https://www.example.com/mysore-masala-dosa-recipe' },
+    { name: 'Vegetable Sandwich', image: 'https://www.example.com/vegetable-sandwich.jpg', recipeLink: 'https://www.example.com/vegetable-sandwich-recipe' },
+    { name: 'Rava Upma', image: 'https://www.example.com/rava-upma.jpg', recipeLink: 'https://www.example.com/rava-upma-recipe' },
+    { name: 'Sabudana Khichdi', image: 'https://www.example.com/sabudana-khichdi.jpg', recipeLink: 'https://www.example.com/sabudana-khichdi-recipe' },
+    { name: 'Palak Puri', image: 'https://www.example.com/palak-puri.jpg', recipeLink: 'https://www.example.com/palak-puri-recipe' },
+    { name: 'Aloo Poha', image: 'https://www.example.com/aloo-poha.jpg', recipeLink: 'https://www.example.com/aloo-poha-recipe' },
+    { name: 'Vegetable Dalia', image: 'https://www.example.com/vegetable-dalia.jpg', recipeLink: 'https://www.example.com/vegetable-dalia-recipe' },
+    // Add more Indian vegetarian breakfast options here
   ],
   lunch: [
     { name: 'Rajma Chawal', image: 'rajma_chawal.jpg', recipeLink: 'https://www.example.com/rajma-chawal-recipe' },
